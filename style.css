@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	background: #87CEEB;
+	height: 100vh;
+	width: 100vw;
+}
+
+#flag{
+	height: 45vmin;
+	width: 90vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0 0 2vmin rgba(0,0,0,0.3);
+}
+
+#black, #white, #bottom {
+	height: 15vmin;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+}
+
+#white {
+	top: 15vmin;
+	background: #fff;
+}
+
+#bottom {
+	top: 30vmin;
+	background: #007a3d;
+}
+
+#triangle {
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border: 15vmin solid #ce1126;
+	border-width: 22.5vmin 30vmin;
+	border-color: rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0) #ce1126;
+}
